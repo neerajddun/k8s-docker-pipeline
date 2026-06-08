@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/neerajddun/jenkins-kubernetes-deployment.git'
+        git 'https://github.com/neerajddun/k8s-docker-pipeline.git'
       }
     }
     stage('Build image') {
